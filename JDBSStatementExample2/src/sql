@@ -1,0 +1,9 @@
+select* from Employees
+
+
+insert into Employees VALUES (100,21,'JACK','EDITION');
+insert into Employees VALUES (101,22,'RUSTY','COLTONS');
+insert into Employees VALUES (102,23,'MOHAN','P');
+insert into Employees VALUES (103,24,'PALANI','K');
+insert into Employees VALUES (104,25,'SHRI','KANTA');
+insert into Employees VALUES (105,26,'WILMAN','KALA');
