@@ -28,10 +28,15 @@ public class InsertStatementExample {
 		System.out.println("create statement done");
 		 
 		//4. prepare the query to execute
-		int record= stmt.executeUpdate("insert into Employees VALUES (107,70,'ahmad','salem')");
+		int record= stmt.executeUpdate("insert into Employees VALUES (108,25,'salah','Boutemeur')");
 		//if record = 0  means no record inserted if record >0 means record inserted successful
+		if (record>0) {
+			
+			System.out.println("Congratulation recors Inserted success");
+		} else {
+			System.err.println("Error coccured while inserting the data");
+		}
 		
-		System.out.println("record::" + record);
 		System.out.println("4 . Prepare the query and execute");
 		
 		
