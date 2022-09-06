@@ -1,4 +1,16 @@
-select* from Employees
+1- Create database simplilearn;
+
+// Create table employees
+
+create table Employees (
+id int NOT NULL PRIMARY KEY,
+age int NOT NULL,
+first varchar (255),
+last varchar(255)
+);
+
+
+select* from Employees;
 
 
 insert into Employees VALUES (100,21,'JACK','EDITION');
