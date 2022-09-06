@@ -14,7 +14,7 @@ System.out.println();
 	
 try {
 	//1 .Load the driver
-	Class.forName("com.mysql.jdbc.Driver");
+	Class.forName("com.mysql.cj.jdbc.Driver");
 	System.out.println("1. Driver Classe load with sccess");
 	//2. Get the connection
 	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplilearn","root","root12345");
