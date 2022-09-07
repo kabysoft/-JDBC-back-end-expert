@@ -20,3 +20,5 @@ insert into Employees VALUES (103,24,'PALANI','K');
 insert into Employees VALUES (104,25,'SHRI','KANTA');
 insert into Employees VALUES (105,26,'WILMAN','KALA');
 insert into Employees VALUES (106,69,'kurumuju','Dhanalaxmi');
+
+UPDATE Employees SET first='sigrid' WHERE id=1 08
